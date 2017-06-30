@@ -11,6 +11,7 @@ module VideoTest{
 			this.videoPlayback1.setVideoInfo('html5', 'http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4', true, 'mp4');
 			this.videoPlayback1.fullScreen = true;
 			this.videoPlayback1.videoVolume = 1;
+			//this.videoPlayback1.htmlVideoThumbnail = "sample url";
 		}
 		button2Click(sender: Core.Classes.TControl){
 			this.videoPlayback1.setVideoInfo('vimeo', '98666912', true); //specify video id and not entire URL
